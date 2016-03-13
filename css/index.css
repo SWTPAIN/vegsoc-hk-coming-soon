@@ -154,7 +154,7 @@ Body
 
 body {
     background-size: cover !important;
-    background-image: url('http://weanimals.org/pub/portfolio/Sanctuary/FarmSanctuary2011_JMcArthur-2913.jpg');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
@@ -197,6 +197,7 @@ Header
     margin-bottom: 50px;
     margin-top: 50px;
     width: 400px;
+    max-width: 100%;
 }
 
 #header .status {
@@ -242,7 +243,9 @@ Main
 ************************************************************************************/
 
 .main {
-  background: rgba(0,0,0, 0.6);
+  background: rgba(0,0,0, 0.4);
+  width: 800px;
+  max-width: 100%;
   padding: 20px 40px;
   margin: 0 auto;
 }
@@ -405,8 +408,12 @@ Containers
 @media (max-width: 600px) {
     .content {
         width: 80%;
-
         margin-left: 10%;
+    }
+
+    #header .content .logo {
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
 }
 
