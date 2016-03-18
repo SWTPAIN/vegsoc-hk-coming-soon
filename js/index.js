@@ -17,6 +17,7 @@ window.onload = function() {
 
   function saveEmail(email) {
     myDataRef.push({email: email}, function() {
+      emailInputField.value = '';
       displayLoadingCover();
       setTimeout(hideLoadingCover, SUCCESS_MESSAGE_SHOW_TIME);
     });
