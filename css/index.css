@@ -543,6 +543,9 @@ Header
     color: #ffffff;
 }
 
+.emailNotice {
+  color: rgba(150, 150, 150, 0.7);
+}
 /***********************************************************************************
 
 Forms
@@ -688,7 +691,7 @@ Status
 	max-width: 560px;
 	min-width: 290px;
 	/*background: #fff;*/
-  background: #3FD3BD;
+  background: #89E472;
 	padding: 4em;
 	text-align: center;
 	position: relative;
@@ -775,7 +778,7 @@ Status
   font-weight: 600;
   border: none;
   color: #fff;
-  background: #c94e50;
+  background: #3C3C3C;
 }
 
 @keyframes anim-dash {
