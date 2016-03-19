@@ -27,6 +27,11 @@ Typography
 
 ************************************************************************************/
 
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
